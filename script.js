@@ -1,27 +1,3 @@
-// const mylibrary = [];
-
-
-// function Book(title, author, num_pages, read, id) {
-
-//     if (!new.target) {
-//     throw Error("Call with new")
-// }
-//     this.title = title;
-//     this.author = author;
-//     this.pages = num_pages;
-//     this.read = read;
-//     this.info = function() {
-//         return `${this.title} by ${this.author} with ${this.pages} pages, ${this.read? "read": "not read yet"}`
-//     }
-//     console.log(this.info());
-// }
-
-
-// function addBookToLibrary() {
-//     const id = crypto.randomUUID();
-//     const book = new Book()
-// }
-
 function random(num) {
   return Math.floor(Math.random() * (num + 1));
 }
